@@ -1,0 +1,8 @@
+"Next, we’ll build the application container image and tag it getting_started as follows:
+$ docker build -t getting_started .
+
+If the Dockerfile isn’t present in the directory where the command is being run, the path to the Dockerfile should be properly appended as follows:
+$ docker build -t api api/Dockerfile
+
+The container image can be run using the following command:
+$ docker run getting-started
